@@ -35,11 +35,14 @@ const LastSection = () => {
         </div>
       </div>
 
-      <div className="recommendedGames">
-        <h1 className="recGameContent">Recommended Games</h1>
-      </div>
+      {/* <div className="recommendedGames">
+        <h1 className="recheading">Recommended Games</h1>
+        <p className="recpara">See all</p>
+      </div> */}
 
-      <div className="recentlyPlayedGames"></div>
+      {/* <div className="recentlyPlayedGames">
+        <h1 className="recentGameContent">Recommended Games</h1>
+      </div> */}
     </div>
   );
 };

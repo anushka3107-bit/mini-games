@@ -1,4 +1,10 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+  body{
+    font-family: 'Kanit', sans-serif;
+font-family: 'Nunito', sans-serif;
+  }
 
 .app {
     display: flex;
@@ -15,8 +21,8 @@
 
   .sidebar{
     height: 100%;
-    background-color: black;
-    width: 10%;
+    background-color: #2c2c2c;
+    width: 8vw;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -27,6 +33,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-right: 1px soild wheat;
 }
 
 .sidebar a {
@@ -129,13 +136,16 @@
 
 .lastSection{
     display: flex;
-    background-color: #D8D9DA;
+    background-color: #F1F1F1;
     width: 60vw;
-    height: 100vh;
+    height: 90vh;
     position: fixed;
     top: 0;
     right: 0;
     text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 30px;
 }
 
 .lastSectionNavbar {
@@ -145,6 +155,7 @@
     width: 60%;
     top: 0;
     position: fixed;
+    margin-top: 30px;
   }
 
 
@@ -194,7 +205,7 @@ input:focus {
 }
 
 .filterIcon{
-    border: 1px solid black;
+    border: 1px solid white;
     background-color: white;
     /* margin-top: 10px; */
     margin-left: 30px;
@@ -206,9 +217,20 @@ input:focus {
 }
 
 .recommendedGames{
-    margin-top: 30px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.recGameContent{
+
+.recheading{
     font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px; 
+}
+
+.recPara{
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
